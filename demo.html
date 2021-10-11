@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SimpliLearn</title>>
+<title>About Us</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #dbe3f5;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: rgb(19, 17, 17);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 19px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: rgb(134, 73, 73);
+  color: rgb(10, 10, 10);
+}
+
+.header a.active {
+  background-color: rgb(111, 226, 241);
+  color: rgb(151, 113, 113);
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #8dc9ec;
+  color: rgb(24, 128, 197);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(124, 136, 138);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(118, 153, 228);
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.footer-dark {
+  padding:50px 0;
+  color:#2180c0;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  color: #816ddb;
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(178, 193, 245, 0.4);
+  margin:0 8px;
+  color:rgb(17, 59, 121);
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+Resources
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a  href="#default" class="logo"><img src="logo2.png" style="height: 60px; width: 60px;"></a>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+</div>
+
+<img src="photo4.jpg" alt="Paris" style="width:100%;">
+
+<div class="about-section">
+  <h1>About Simplilearn</h1>
+  <div>Simplilearn is the world’s #1 online bootcamp and one of the world’s leading certification training providers. We partner with companies and individuals to address their unique needs, providing training and coaching that helps working professionals achieve their career goals.</div>
+</div>
+
+<h3 style="text-align:center">Our Team</h3>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="Richard Williams.jfif" alt="Richard Williams" style="width: 30%" class="mr-3 mt-3 rounded-circle">
+      <div class="container">
+        <h4>Richard Williams</h4>
+        <p class="title">Founder & CEO,Director</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="John Hussain.jpg" alt="John Hussain" style="width:30%"class="mr-3 mt-3 rounded-circle">
+      <div class="container">
+        <h4>John Hussain</h4>
+        <p class="title">Co-Founder & Chief Business Officer</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="Maria Taylor.jfif" alt="Maria Taylor" style="width:30%" class="mr-3 mt-3 rounded-circle">
+      <div class="container">
+        <h4>Maria Taylor</h4>
+        <p class="title">Chief Marketing Officer</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="column">
+    <div class="card">
+      <img src="Stephen Jones1.jfif" alt="Stephen Jones" style="width:30%" class="mr-3 mt-3 rounded-circle">
+      <div class="container">
+        <h4>Stephen Jones</h4>
+        <p class="title">Chief Product Officere</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="column">
+    <div class="card">
+      <img src="Michael Taylor.jpg" alt="Michael Taylor" style="width:30%" class="mr-3 mt-3 rounded-circle">
+      <div class="container">
+        <h4> Michael Taylor</h4>
+        <p class="title">co-ordinator</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="column">
+    <div class="card">
+      <img src="Julie Thomas.jpg" alt="Julie Thomas" style="width:30%" class="mr-3 mt-3 rounded-circle">
+      <div class="container">
+        <h4>Julie Thomas</h4>
+        <p class="title">Vice President</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<br>
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<div>
+<section>
+  <p>
+ <strong><mark style="color: rgb(66, 10, 41);"> Mission</mark></strong>
+ Enable students to take the initiative to learn on their own and fall in love with learning. We will also lead in generating practical and theoretical knowledge that enables people to better understand our world and improve conditions for local and global communities.
+</p></div>
+
+<br><br>
+<div>
+<p>
+
+<strong><mark style="color: rgb(66, 10, 38);">Vision</mark></strong>
+One to One Learning. We will be the preeminent intellectual and creative center for effective engagement in a world that increasingly demands better-designed objects, communication, systems, and organizations to meet social needs.
+</p>
+</section></div>
+
+</body>
+
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">High qualified faculty</a></li>
+                            <li><a href="#">Simplilearn community</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Our Achievements</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Work with us</h3>
+                        <ul>
+                            <li><a href="#">Become an instructor</a></li>
+                            <li><a href="#">Blog as guest</a></li>
+                        </ul>
+                    </div>
+                    <div class="col item social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-snapchat"></i></a>
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+                <p class="copyright">Simplilearn © 2021</p>
+            </div>
+        </footer>
+    </div>
+
+
+</html>
